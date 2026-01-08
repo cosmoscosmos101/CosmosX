@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Main Content */
+main {
+  display: flex;
+  flex: 1;
+}
+
+/* Table of Contents Sidebar */
+#table-of-contents {
+  width: 200px;
+  background-color: #ddd;
+  padding: 1rem;
+}
+
+#table-of-contents h2 {
+  margin-top: 0;
+}
+
+#table-of-contents ul {
+  list-style: none;
+  padding: 0;
+}
+
+#table-of-contents li a {
+  display: block;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: #333;
+  border-radius: 4px;
+}
+
+#table-of-contents li a:hover {
+  background-color: #ccc;
+}
+
+/* Course Content */
+#content {
+  flex: 1;
+  padding: 1rem;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Login Bar */
+#login-bar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+#login-bar input {
+  margin-right: 0.5rem;
+  padding: 0.25rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+#login-bar button {
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+#login-bar button:hover {
+  background-color: #ddd;
+}
