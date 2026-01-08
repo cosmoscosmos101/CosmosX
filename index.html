@@ -2,18 +2,33 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <title>Hello World!</title>
+    <title>Learn Rust Programming</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Hello World!</h1>
-    We are using Node.js <span id="node-version"></span>,
-    Chromium <span id="chrome-version"></span>,
-    and Electron <span id="electron-version"></span>.
-
-    <!-- You can also require other files to run in this process -->
+    <header>
+      <h1>Learn Rust Programming</h1>
+      <nav id="login-bar">
+        <input type="text" placeholder="Username" id="username">
+        <input type="password" placeholder="Password" id="password">
+        <button id="login-button">Login</button>
+      </nav>
+    </header>
+    <main>
+      <aside id="table-of-contents">
+        <h2>Table of Contents</h2>
+        <ul>
+          <li><a href="#">Introduction</a></li>
+        </ul>
+      </aside>
+      <section id="content">
+        <h2>Course Content</h2>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Learn Rust Programming</p>
+    </footer>
     <script src="./renderer.js"></script>
   </body>
 </html>

@@ -17,6 +17,11 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^13.1.2"
+    "@playwright/test": "^1.57.0",
+    "electron": "^13.1.2",
+    "playwright": "^1.57.0"
+  },
+  "dependencies": {
+    "marked": "^17.0.1"
   }
 }
